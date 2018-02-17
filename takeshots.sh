@@ -1,4 +1,6 @@
-#/bin/sh
+#/bin/bash
+
+# Deprecated screenshot approach
 
 alias python=python3
 
@@ -11,7 +13,7 @@ function take_abd_screenshot() {
 }
 
 function takeshots() {
-    while true; do take_adb_screenshot; done
+    while true; do take_abd_screenshot; done
 }
 
 takeshots

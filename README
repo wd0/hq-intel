@@ -1,0 +1,2 @@
+Run dump-video.sh in the background to collect screenshots via ffmpeg from the Android device
+connected by adb. Then run main.py to analyze collected screenshots with hq-intel.

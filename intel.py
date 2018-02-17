@@ -5,6 +5,7 @@ import time
 import os
 
 # TODO: Is screenshot timestamp sufficiently precise?
+# TODO: Coordinates are screen-size dependent and therefore are for my particular screen.
 
 def ocr_region(img, coords):
     cropped = img.crop(coords)
